@@ -429,8 +429,7 @@ ax.text(0.05, 0.95, table_text, transform=ax.transAxes,
 ax.set_title('(f) Summary', fontsize=12)
 
 plt.tight_layout()
-plt.savefig('/Users/collin/Documents/GitHub/Fib-CMI/cmi_ring_results.png',
-            dpi=150, bbox_inches='tight')
+plt.savefig('cmi_ring_results.png', dpi=150, bbox_inches='tight')
 print("\n✓ Plot saved: cmi_ring_results.png")
 
 
